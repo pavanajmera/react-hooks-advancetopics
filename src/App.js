@@ -1,4 +1,4 @@
-import Starter from './topics/01-useState/01-error-example'
+import Starter from './topics/01-useState/03-useState-array'
 function App() {
   return (
     <div className="container">
