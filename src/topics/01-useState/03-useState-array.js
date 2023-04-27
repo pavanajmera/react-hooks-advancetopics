@@ -13,6 +13,13 @@ const useStateArray = () =>{
         setPeople([]);
     }
 
+    if(people.length === 0){
+        return(
+            <div>
+                <button className="btn" onClick={()=>setPeople(data)}>Reset</button>
+            </div>
+        )
+    }
     return(
         <div>
            {people.map((person) => {

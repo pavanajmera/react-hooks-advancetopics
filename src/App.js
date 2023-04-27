@@ -1,4 +1,4 @@
-import Starter from './topics/01-useState/03-useState-array'
+import Starter from './topics/01-useState/05-useState-gotcha'
 function App() {
   return (
     <div className="container">
